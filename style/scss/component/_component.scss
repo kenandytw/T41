@@ -1,0 +1,101 @@
+
+@import "_navBox";
+@import "_contentBox";
+@import "_btn";
+
+// lightbox
+
+
+.lightbox {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    background: rgba(0,0,0,0.6);
+}
+
+.lightbox-container {
+    border-radius: 6px;
+    position: relative;
+    height: 80%;
+    top: 10%;
+    width: 90%;
+    max-width: 780px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 70px;
+    padding-right: 5px;
+    padding-top: 55px;
+}
+
+.lightbox-header{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: $theme_color;
+    color: $font-color;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px 5px 0 0 ;
+}
+.lightbox-content {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    padding-right: 15px;
+}
+
+.lightbox-content h1{
+    margin-top:15px;
+    line-height: 1.5em;
+    color: #c1272d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lightbox-content h2{
+    color: #444;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.5em;
+    margin: 25px;
+}
+
+.lightbox-content p{
+    padding: 15px 0;
+    line-height: 1.45em
+}
+
+.lightbox-cancel-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    background: #eee;
+    border-top: solid 1px #ccc;
+    border-radius: 0 0 5px 5px;
+}
+
+.lightbox-cancel {
+    display: table;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+}
+
+.lightbox-trigger {
+    padding-bottom: 2px;
+    border-bottom: solid 1px #000;
+    cursor: pointer;
+}

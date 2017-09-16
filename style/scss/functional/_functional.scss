@@ -1,0 +1,44 @@
+// functional
+.align-center{
+    text-align: center!important;
+}
+.align-left {
+    text-align: left!important;
+}
+.align-right{
+    text-align: right!important;
+}
+
+.mg-b-lg{
+    margin-bottom: 65px;
+    @media(max-width:$xs){
+        margin-bottom: 45px;
+    }
+}
+
+.mg-b-md{
+    margin-bottom: 45px;
+    @media(max-width:$xs){
+        margin-bottom: 25px;
+    }
+}
+
+.mg-b-sm{
+    margin-bottom: 25px;
+    @media(max-width:$xs){
+        margin-bottom: 20px;
+    }
+}
+
+.mg-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert-color {
+	color: $alert-color!important;
+}
+
+.theme-alert-bg{
+    background-color: $theme-alert;
+}

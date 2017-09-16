@@ -1,0 +1,30 @@
+// Variables_Color
+$bg-color: #F4F0E9;
+$theme-color: #e8decf;
+$alert-color: #c30d23;
+$theme-alert: #d34c4c;
+$mobileNav-bg-color: rgb(181, 181, 182);
+$font-color: rgba(0, 0, 0, 0.87);
+$Red : #f76363;
+$Yellow : #ffdc2e; 
+$Green : #51b67c; 
+$Blue : #61cbd6; 
+$Orange : #ff9248; 
+$Purple : #db85ff;
+
+// Variables_Size
+$xs: 776px;
+$headline-size: 18px;
+$standard-size: 14px;
+
+// font 
+@import url('https://fonts.googleapis.com/css?family=Unna');
+
+
+//import scss
+@import "font-awesome/_font-awesome";  
+@import "layout/_layout";
+@import "component/_component";
+@import "partial/_partial";
+@import "functional/_functional";
+

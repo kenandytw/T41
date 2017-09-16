@@ -1,0 +1,50 @@
+.content-box{
+    text-align: center;
+    widt: 100%;
+    padding-left: 370px;
+    display: flex;
+    height: 100%;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    
+    @media(max-width:1440px){
+        padding-left: 430px;
+    }
+
+    @media(max-width:$xs){
+        //display: none;
+        padding-left: 0;
+        display: block;
+    }
+    
+    img{
+        width: 100%;
+    }
+
+    >div{
+        position: relative;
+        max-height: 100%;
+        overflow: auto;
+        padding: 15px;
+        width: 100%;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    h1{
+        margin-bottom: 45px;
+        font-size: 32px;
+        @media(max-width:$xs){
+            font-size: 24px;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+.img-box{
+    
+}
