@@ -42,9 +42,12 @@ ul{
     }
 }
 
+h1,h2,h3,h4,h5,p{
+    letter-spacing: 2.5px;
+}
+
 p{
     color: $font-color;
-    letter-spacing: 2.5px;
     line-height: 1.55em;
     font-size: 14px;
     @media(max-width:$xs){

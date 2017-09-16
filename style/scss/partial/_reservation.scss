@@ -92,6 +92,7 @@
         border: solid 1px #ccc;
         border-radius: 2px;
         height: 32px;
+        -webkit-appearance: none ;
         @media(max-width:$xs){
             font-size: 14px;
         }

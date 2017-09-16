@@ -18,7 +18,11 @@ $(document).ready(function(){
             $hamburgerBtn    = $('.hamburger-box'),
             $navBox          = $('.nav-box'),
             $contentBox      = $('.content-box'),
-            $landingCut      = $('#landing-cut');
+            $landingCut      = $('#landing-cut'),
+            $lightboxTrigger = $('#light-trigger'),
+            $lightboxCancel  = $('.lightbox-cancel'),
+            $lightbox        = $('.lightbox');
+        
 
         // value
         var _wrapperH       = $wrapper.outerHeight(),
@@ -29,6 +33,15 @@ $(document).ready(function(){
         $hamburgerBtn.click(function(){
             $(this).find('i').toggleClass('active');
             $navBox.fadeToggle(400);
+        })
+        
+
+        $lightboxTrigger.click(function(){
+            $lightbox.fadeIn(500);
+        })
+
+        $lightboxCancel.click(function(){
+            $lightbox.fadeOut(500);
         })
         
         // Index function
